@@ -92,11 +92,14 @@ Insert some text here
 Group 4
 ===
 
-Insert some text here
+Calculating correlation using Pearson's correltaion coefficient
 
 ```{r}
 #Code blocks can go inside these quoted delimeters
 
+#
+cor(newStarwars$height, newStarwars$BMI)
+# Corr = -0.464; this implies there is moderate negative correlation
 ```
 
 Group 5
